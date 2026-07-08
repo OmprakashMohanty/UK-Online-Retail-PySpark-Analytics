@@ -1,10 +1,10 @@
 # UK Online Retail PySpark Analytics
 
-An end-to-end retail sales analytics project built with PySpark using the UK Online Retail dataset. The project demonstrates a structured workflow for ingesting, cleaning, transforming, and analyzing transactional retail data to generate meaningful business insights.
+An end-to-end retail sales analytics project built with PySpark using the UK Online Retail dataset. The project demonstrates a structured workflow for ingesting, cleaning, transforming, and analyzing retail transaction data at scale. It analyzed 541K+ rows of big data to uncover sales trends and customer behavior insights.
 
 ## Project Overview
 
-This repository focuses on building a scalable retail analytics pipeline with PySpark. It covers the complete data preparation and analysis process, from raw dataset ingestion to feature engineering and KPI generation.
+This repository focuses on building a scalable retail analytics pipeline with PySpark. It covers the complete data preparation and analysis process, from raw dataset ingestion to feature engineering and business reporting.
 
 ## Key Features
 
@@ -14,6 +14,7 @@ This repository focuses on building a scalable retail analytics pipeline with Py
 - Retail KPI calculation and business metric analysis
 - Sales trend and customer behavior exploration
 - Scalable data processing using PySpark
+- Analyzed 541K+ rows of big data
 
 ## Repository Structure
 
