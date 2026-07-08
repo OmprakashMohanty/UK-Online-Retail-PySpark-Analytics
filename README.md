@@ -1,62 +1,79 @@
-# UK Online Retail PySpark Analytics
+## 🛒 UK Online Retail Analytics using PySpark
 
-An end-to-end retail sales analytics project built with PySpark using the UK Online Retail dataset. The project demonstrates a structured workflow for ingesting, cleaning, transforming, and analyzing retail transaction data at scale. It analyzed 541K+ rows of big data to uncover sales trends and customer behavior insights.
+An end-to-end retail analytics project built using **PySpark** to process and analyze **541K+ e-commerce transactions** from a UK-based online retailer. The project demonstrates a complete analytics pipeline—from raw data ingestion to business KPI generation using distributed data processing.
 
-## Project Overview
+---
 
-This repository focuses on building a scalable retail analytics pipeline with PySpark. It covers the complete data preparation and analysis process, from raw dataset ingestion to feature engineering and business reporting.
+## 🎯 Project Purpose
 
-## Key Features
+Build a scalable retail analytics pipeline using **PySpark** to transform raw transactional data into meaningful business insights through data cleaning, feature engineering, and KPI analysis.
 
-- Data ingestion and preprocessing of raw retail transaction data
-- Data cleaning, including handling missing values, duplicates, and invalid records
-- Feature engineering to prepare analysis-ready datasets
-- Retail KPI calculation and business metric analysis
-- Sales trend and customer behavior exploration
-- Scalable data processing using PySpark
-- Analyzed 541K+ rows of big data
+---
 
-## Repository Structure
+## ✨ Project Highlights
+
+- 📊 Analyzed **541K+** retail transactions using **PySpark**
+- 📥 Performed **Data Ingestion & Data Profiling**
+- 🧹 Cleaned and transformed raw transactional data
+- ⚙️ Engineered business features for downstream analysis
+- 💾 Stored processed data in **Parquet** format
+
+---
+
+### 📂 Dataset
+
+> **Note:** The dataset is not included in this repository due to GitHub's file size limit. Refer to **`data/DATASET.md`** for download instructions.
+
+---
+
+## 🔄 Project Workflow
 
 ```text
-.
-├── data/                  # Raw and processed datasets
-├── notebooks/             # Jupyter notebooks for exploration and analysis
-├── src/                   # PySpark scripts for cleaning, transformation, and analysis
-├── outputs/               # Generated charts, reports, and result files
-├── docs/                  # Supporting documentation and notes
-├── tests/                 # Validation and testing scripts
-└── README.md              # Project documentation
+Raw CSV Dataset
+        │
+        ▼
+📥 Data Ingestion & Profiling
+        │
+        ▼
+🧹 Data Cleaning & Transformation
+        │
+        ▼
+⚙️ Feature Engineering
+        │
+        ▼
+📊 Business KPI Analysis
+        │
+        ▼
+💾 Analytics-Ready Output
 ```
 
-### Folder Details
+---
 
-- **data/**: Stores the source dataset and any cleaned or intermediate data files.
-- **notebooks/**: Contains notebooks used for exploratory analysis, experimentation, and visualization.
-- **src/**: Includes reusable PySpark code for data ingestion, cleaning, transformation, and feature engineering.
-- **outputs/**: Holds final artifacts such as tables, charts, summaries, and reports.
-- **docs/**: Used for additional documentation, methodology, or project notes.
-- **tests/**: Contains scripts used to validate data quality and processing logic.
 
-## Workflow
+## 📁 Repository Structure
 
-1. Load the UK Online Retail dataset into PySpark.
-2. Clean and validate the raw transaction data.
-3. Perform feature engineering to create analysis-ready fields.
-4. Analyze sales performance and customer patterns.
-5. Generate KPIs and summarize business insights.
-6. Present findings through notebooks, tables, or visual outputs.
+```text
+uk-online-retail-pyspark-analytics
+│
+├── 📂 data
+│   └── DATASET.md
+│
+├── 📂 notebooks
+│   ├── 01_Data_Ingestion.ipynb
+│   ├── 02_Data_Cleaning_Transformation.ipynb
+│   └── 03_Business_KPI_Analysis.ipynb
+│
+├── 📂 output
+│   ├── cleaned_data
+│
+└── 📄 README.md
+```
 
-## Tech Stack
+---
 
-- PySpark
-- Python
-- Jupyter Notebook
+## 👨‍💻 Author
 
-## Dataset
+**Omprakash Mohanty**
 
-This project uses the **UK Online Retail dataset**, a transactional retail dataset commonly used for sales analytics and customer behavior analysis.
-
-## Purpose
-
-The purpose of this repository is to demonstrate a complete retail analytics workflow using PySpark and to provide a clear, structured example of large-scale data processing for business insights.
+B.Tech
+National Institute of Technology Rourkela
